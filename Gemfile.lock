@@ -280,6 +280,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-theme-slate
 
 BUNDLED WITH
    2.5.14
