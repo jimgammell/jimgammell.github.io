@@ -28,7 +28,7 @@ twitter_username: jgammell0
 github_username: jimgammell
 
 # Build settings
-theme: jekyll-theme-slate
+theme: jekyll-theme-minima
 plugins:
   - jekyll-feed
 
