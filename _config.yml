@@ -18,14 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Jimmy Gammell
-email: jgammell@purdue.edu
+title: The Blog of Jimmy Gammell
 description: >- # this means to ignore newlines until "baseurl:"
   (Under construction) My personal blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "jimgammell.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jgammell0
-github_username: jimgammell
 
 # Build settings
 #remote_theme: pages-themes/slate@v0.2.0
@@ -33,6 +30,11 @@ theme: jekyll-theme-slate
 plugins:
 - jekyll-feed
 #- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+social_links:
+  email: jgammell@purdue.edu
+  twitter: https://x.com/jgammell0
+  github: https://github.com/jimgammell
 
 # Exclude from processing.
 # The following items will not be processed, by default.

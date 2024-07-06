@@ -6,7 +6,7 @@ layout: default
 title: Home
 ---
 
-# Welcome to my blog.
+# List of blogposts:
 
 <ul>
 {% for post in site.posts %}
