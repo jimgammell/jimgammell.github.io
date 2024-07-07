@@ -1,8 +1,14 @@
-<footer>
-    <p>Social media links:</p>
-    <ul>
-      <li><a href="https://x.com/{{ site.data.social_media_links.twitter}}" target="_blank">Twitter</a></li>
-      <li><a href="https://linkedin.com/in/{{ site.data.social_media_links.linkedin}}" target="_blank">LinkedIn</a></li>
-      <li><a href="https://github.com/{{ site.data.social_media_links.github}}" target="_blank">GitHub</a></li>
-    </ul>
-  </footer>
+<div id="footer_wrap" class="outer">
+    <footer class="inner">
+      {% if site.github.is_project_page %}
+      <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      {% endif %}
+      <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      <p>Social media links:</p>
+      <ul>
+        <li><a href="https://x.com/{{ site.data.social_media_links.twitter}}" target="_blank">Twitter</a></li>
+        <li><a href="https://linkedin.com/in/{{ site.data.social_media_links.linkedin}}" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/{{ site.data.social_media_links.github}}" target="_blank">GitHub</a></li>
+      </ul>
+    </footer>
+  </div>
