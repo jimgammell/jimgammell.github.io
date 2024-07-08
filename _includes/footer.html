@@ -1,14 +1,12 @@
 <div id="footer_wrap" class="outer">
     <footer class="inner">
-      {% if site.github.is_project_page %}
-      <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-      {% endif %}
+        <ul class="social-media-links">
+          <li><a href="https://x.com/{{ site.data.social_media_links.twitter}}" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://linkedin.com/in/{{ site.data.social_media_links.linkedin}}" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://github.com/{{ site.data.social_media_links.github}}" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+          <li><a href="mailto:{{ site.data.social_media_links.email }}" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+      <p>© 2024 Jimmy Gammell. All rights reserved.</p>
       <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      <ul class="social-media-links">
-        <li><a href="https://x.com/{{ site.data.social_media_links.twitter}}" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="https://linkedin.com/in/{{ site.data.social_media_links.linkedin}}" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
-        <li><a href="https://github.com/{{ site.data.social_media_links.github}}" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
-        <li><a href="mailto:{{ site.data.social_media_links.email }}" target="_blank" aria-label="Email"><i class="fab fa-envelope"></i></a></li>
-      </ul>
     </footer>
   </div>
