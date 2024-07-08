@@ -11,8 +11,10 @@
   }
   
   .social-media-links a {
-    color: inherit;  /* Use a specific color or inherit from the body */
+    color: #FFFFFF;  /* Use a specific color or inherit from the body */
     text-decoration: none;
+    opacity: 1;
+    transition: opacity 0.3s ease;
   }
   
   .social-media-links a:hover {
