@@ -1,0 +1,21 @@
+.social-media-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .social-media-links li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .social-media-links a {
+    color: inherit;  /* Use a specific color or inherit from the body */
+    text-decoration: none;
+  }
+  
+  .social-media-links a:hover {
+    opacity: 0.8;
+  }
+  
