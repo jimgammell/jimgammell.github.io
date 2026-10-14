@@ -1,0 +1,31 @@
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.profile-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.profile-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.profile-header p {
+  margin-bottom: 0.4rem;
+}
+
+.profile-links {
+  text-align: left;
+  margin: 0.75rem 0 0;
+}
+
+.profile-links a:hover {
+  text-decoration: underline;
+}
